@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5521F1242C0161B10035045B /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521F1232C0161B10035045B /* CustomCollectionViewCell.swift */; };
 		55790E512C015CB7002125F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55790E502C015CB7002125F0 /* AppDelegate.swift */; };
 		55790E532C015CB7002125F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55790E522C015CB7002125F0 /* SceneDelegate.swift */; };
 		55790E552C015CB7002125F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55790E542C015CB7002125F0 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5521F1232C0161B10035045B /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		55790E4D2C015CB7002125F0 /* CollectionViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55790E502C015CB7002125F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55790E522C015CB7002125F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				55790E592C015CB9002125F0 /* Assets.xcassets */,
 				55790E5B2C015CB9002125F0 /* LaunchScreen.storyboard */,
 				55790E5E2C015CB9002125F0 /* Info.plist */,
+				5521F1232C0161B10035045B /* CustomCollectionViewCell.swift */,
 			);
 			path = CollectionViews;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				55790E552C015CB7002125F0 /* ViewController.swift in Sources */,
 				55790E512C015CB7002125F0 /* AppDelegate.swift in Sources */,
 				55790E532C015CB7002125F0 /* SceneDelegate.swift in Sources */,
+				5521F1242C0161B10035045B /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +310,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = iOSLabFIAngelLopez.CollectionViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -333,9 +340,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = iOSLabFIAngelLopez.CollectionViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
